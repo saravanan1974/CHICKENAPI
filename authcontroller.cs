@@ -26,6 +26,21 @@ namespace  SENTOSIAH.Controllers
             _config = config;
         }
 
+
+           [HttpGet("test")]
+        public IActionResult test()
+        {
+            try
+            {
+                return Ok('sample'); // Automatically serializes to JSON
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
         [HttpGet("companies")]
         public IActionResult getCompanies()
         {
