@@ -28,8 +28,8 @@ namespace  SENTOSIAH.Controllers
 
 
        
-   [HttpGet("Get")]
-    public IActionResult Get()
+   [HttpGet("test")]
+    public IActionResult test()
     {
         return Ok("Welcome to Aarel");
     }
