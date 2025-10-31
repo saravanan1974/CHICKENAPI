@@ -179,6 +179,8 @@ app.UseAuthorization();
 
 // 👇 Important
 app.MapControllers();
+pp.UseHttpsRedirection();
+app.MapGet("/", () => Results.Ok("Welcome to Sentosiah API!"));
 
 app.Run();
 
