@@ -66,7 +66,7 @@
  using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+var port = Environment.GetEnvironmentVariable("PORT") ?? "7006";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 
