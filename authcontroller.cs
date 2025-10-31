@@ -27,18 +27,12 @@ namespace  SENTOSIAH.Controllers
         }
 
 
-           [HttpGet("test")]
-        public IActionResult test()
-        {
-            try
-            {
-                return Ok('sample'); // Automatically serializes to JSON
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
+       
+   [HttpGet("Get")]
+    public IActionResult Get()
+    {
+        return Ok("Welcome to Aarel");
+    }
 
 
         [HttpGet("companies")]
