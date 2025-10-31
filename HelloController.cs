@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AarelWelcomeApi.Controllers;
+namespace SENTOSIAH.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -12,3 +12,4 @@ public class HelloController : ControllerBase
         return Ok("Welcome to Aarel");
     }
 }
+
