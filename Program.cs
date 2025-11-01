@@ -66,10 +66,10 @@
  using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-var port = Environment.GetEnvironmentVariable("PORT") ?? "7006";
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 //builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
-builder.WebHost.UseUrls($"http://0.0.0.0:7006");
+builder.WebHost.UseUrls($"http://0.0.0.0:8080");
 
 
 // builder.WebHost.UseUrls("http://192.168.1.14:5202");
