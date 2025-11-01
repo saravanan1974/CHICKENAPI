@@ -26,6 +26,15 @@ namespace  SENTOSIAH.Controllers
             _config = config;
         }
 
+
+       
+   [HttpGet("test")]
+    public IActionResult test()
+    {
+        return Ok("Welcome to Aarel");
+    }
+
+
         [HttpGet("companies")]
         public IActionResult getCompanies()
         {
