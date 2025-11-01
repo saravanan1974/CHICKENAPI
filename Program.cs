@@ -73,6 +73,7 @@ var builder = WebApplication.CreateBuilder(args);
  builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
 
+
 builder.Services.AddCors(options =>
 {
     // options.AddPolicy("AllowReactApp", policy =>
@@ -170,6 +171,11 @@ if (app.Environment.IsDevelopment())
     
 }
 
+var pg = builder.Configuration.GetConnectionString("Postgres");
+if (string.IsNullOrWhiteSpace(pg))
+{
+    Console.WriteLine("❌ Postgres connection string missing!");
+}
 
 app.UseCors("AllowAll");
 
