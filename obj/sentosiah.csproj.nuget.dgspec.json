@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HitGUB\\sentosiah\\sentosiah.csproj": {}
+    "E:\\FINAL\\sentosiah\\sentosiah.csproj": {}
   },
   "projects": {
-    "E:\\HitGUB\\sentosiah\\sentosiah.csproj": {
+    "E:\\FINAL\\sentosiah\\sentosiah.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HitGUB\\sentosiah\\sentosiah.csproj",
+        "projectUniqueName": "E:\\FINAL\\sentosiah\\sentosiah.csproj",
         "projectName": "sentosiah",
-        "projectPath": "E:\\HitGUB\\sentosiah\\sentosiah.csproj",
+        "projectPath": "E:\\FINAL\\sentosiah\\sentosiah.csproj",
         "packagesPath": "C:\\Users\\suppo\\.nuget\\packages\\",
-        "outputPath": "E:\\HitGUB\\sentosiah\\obj\\",
+        "outputPath": "E:\\FINAL\\sentosiah\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suppo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,12 +93,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.18, 8.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -108,11 +102,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }
