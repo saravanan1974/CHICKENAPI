@@ -66,14 +66,9 @@
  using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-<<<<<<< HEAD
-=======
-//var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-//builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
->>>>>>> ba37e1842373bed2804311bf0a456452affbeb94
 
 //builder.WebHost.UseUrls($"http://0.0.0.0:8080");
-builder.WebHost.UseUrls("http://0.0.0.0:5000");
+//builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
  builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
