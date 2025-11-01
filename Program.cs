@@ -171,6 +171,7 @@ if (app.Environment.IsDevelopment())
     
 }
 
+Console.WriteLine("Started...");
 var pg = builder.Configuration.GetConnectionString("Postgres");
 if (string.IsNullOrWhiteSpace(pg))
 {
